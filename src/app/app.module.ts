@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContadorComponentComponent } from './exercicio1/contador-component/contador-component.component';
 import { ListItemsComponent } from './exercicio2/list-items/list-items.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ListItemsComponent } from './exercicio2/list-items/list-items.component
     MatButtonModule,
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     BrowserAnimationsModule
   ],
   providers: [],
