@@ -9,12 +9,14 @@ import { AppComponent } from './app.component';
 import { ContadorComponentComponent } from './exercicio1/contador-component/contador-component.component';
 import { ListItemsComponent } from './exercicio2/list-items/list-items.component';
 import { FormsModule } from '@angular/forms';
+import { FormCadastroComponent } from './exercicio4/form-cadastro/form-cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContadorComponentComponent,
-    ListItemsComponent
+    ListItemsComponent,
+    FormCadastroComponent
   ],
   imports: [
     MatTableModule,

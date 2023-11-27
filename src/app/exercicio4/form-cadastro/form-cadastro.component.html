@@ -1,0 +1,23 @@
+<div>
+    <h2>Formulário de Cadastro</h2>
+    <form (ngSubmit)="submitForm()">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" [(ngModel)]="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="email" required />
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" [(ngModel)]="senha" required />
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <div *ngIf="cadastroRealizado">
+      <p>Olá, {{ nome }}, seu cadastro foi realizado com sucesso.</p>
+    </div>
+
+    <div *ngIf="mensagemErro">
+      <p>{{ mensagemErro }}</p>
+    </div>
+  </div>
