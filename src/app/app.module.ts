@@ -10,13 +10,15 @@ import { ContadorComponentComponent } from './exercicio1/contador-component/cont
 import { ListItemsComponent } from './exercicio2/list-items/list-items.component';
 import { FormsModule } from '@angular/forms';
 import { FormCadastroComponent } from './exercicio4/form-cadastro/form-cadastro.component';
+import { ControleAcessoComponent } from './exercicio5/controle-acesso/controle-acesso.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContadorComponentComponent,
     ListItemsComponent,
-    FormCadastroComponent
+    FormCadastroComponent,
+    ControleAcessoComponent
   ],
   imports: [
     MatTableModule,
