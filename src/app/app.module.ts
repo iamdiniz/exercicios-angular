@@ -11,7 +11,7 @@ import { ListItemsComponent } from './exercicio2/list-items/list-items.component
 import { FormsModule } from '@angular/forms';
 import { FormCadastroComponent } from './exercicio4/form-cadastro/form-cadastro.component';
 import { ControleAcessoComponent } from './exercicio5/controle-acesso/controle-acesso.component';
-import { ComponentePaiComponent } from './exercicio6/componente-pai/componente-pai.component';
+
 import { ComponenteFilhoComponent } from './exercicio6/componente-filho/componente-filho.component';
 import { FormLoginComponent } from './exercicio7/form-login/form-login.component';
 import { AreaLogadaComponent } from './exercicio7/area-logada/area-logada.component';
@@ -23,7 +23,6 @@ import { AreaLogadaComponent } from './exercicio7/area-logada/area-logada.compon
     ListItemsComponent,
     FormCadastroComponent,
     ControleAcessoComponent,
-    ComponentePaiComponent,
     ComponenteFilhoComponent,
     FormLoginComponent,
     AreaLogadaComponent

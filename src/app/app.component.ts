@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ContadorComponentComponent } from './exercicio1/contador-component/contador-component.component';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,15 @@ import { ContadorComponentComponent } from './exercicio1/contador-component/cont
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'exercicios-angular';
+
+  mensagemDoPai = 'Ola meu filho, essa mensagem vem do componente pai';
+
+  itensDoPai = [
+    { mensagem: 'Essa mensagem está localizada no componente pai' },
+    { mensagem: 'E está sendo compartilhada para o componente filho' },
+    { mensagem: 'Oi' },
+    { mensagem: 'Item' },
+    { mensagem: 'Item 2' },
+  ];
+
 }
