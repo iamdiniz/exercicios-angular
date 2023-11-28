@@ -15,6 +15,8 @@ import { ControleAcessoComponent } from './exercicio5/controle-acesso/controle-a
 import { ComponenteFilhoComponent } from './exercicio6/componente-filho/componente-filho.component';
 import { FormLoginComponent } from './exercicio7/form-login/form-login.component';
 import { AreaLogadaComponent } from './exercicio7/area-logada/area-logada.component';
+import { DadosAlunosComponent } from './exercicio8/dados-alunos/dados-alunos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { AreaLogadaComponent } from './exercicio7/area-logada/area-logada.compon
     ControleAcessoComponent,
     ComponenteFilhoComponent,
     FormLoginComponent,
-    AreaLogadaComponent
+    AreaLogadaComponent,
+    DadosAlunosComponent
   ],
   imports: [
     MatTableModule,
@@ -33,6 +36,7 @@ import { AreaLogadaComponent } from './exercicio7/area-logada/area-logada.compon
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
     BrowserAnimationsModule
   ],
   providers: [],

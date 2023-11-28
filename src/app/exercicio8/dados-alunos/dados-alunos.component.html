@@ -1,0 +1,27 @@
+<table class="custom-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Curso</th>
+        <th>Disciplinas</th>
+        <th>Média Global</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let aluno of alunos">
+        <td>{{ aluno.id }}</td>
+        <td>{{ aluno.nome }}</td>
+        <td>{{ aluno.curso }}</td>
+        <td>
+          <ul>
+            <li *ngFor="let disciplina of aluno.disciplinas">
+              {{ disciplina.nome }}: {{ disciplina.nota }}
+            </li>
+          </ul>
+        </td>
+        <td>{{ calcularMedia(aluno) }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

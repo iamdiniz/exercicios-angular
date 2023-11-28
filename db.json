@@ -1,0 +1,28 @@
+{
+    "alunos": [
+      {
+        "id": 1,
+        "matricula": 1235,
+        "idade": 20,
+        "curso": "Sistemas de informação",
+        "nome": "João",
+        "disciplinas": [
+          {"nome": "Matemática", "nota": 8},
+          {"nome": "Português", "nota": 7},
+          {"nome": "História", "nota": 9}
+        ]
+      },
+      {
+        "id": 2,
+        "matricula": 231,
+        "idade": 21,
+        "curso": "ADS",
+        "nome": "Maria",
+        "disciplinas": [
+          {"nome": "Matemática", "nota": 9},
+          {"nome": "Português", "nota": 6},
+          {"nome": "História", "nota": 8}
+        ]
+      }
+    ]
+  }
