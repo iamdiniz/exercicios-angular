@@ -3,6 +3,7 @@
       <tr>
         <th>ID</th>
         <th>Nome</th>
+        <th>Matricula</th>
         <th>Curso</th>
         <th>Disciplinas</th>
         <th>Média Global</th>
@@ -12,6 +13,7 @@
       <tr *ngFor="let aluno of alunos">
         <td>{{ aluno.id }}</td>
         <td>{{ aluno.nome }}</td>
+        <td>{{ aluno.matricula}}</td>
         <td>{{ aluno.curso }}</td>
         <td>
           <ul>

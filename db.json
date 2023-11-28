@@ -2,26 +2,26 @@
     "alunos": [
       {
         "id": 1,
-        "matricula": 1235,
+        "matricula": 12345,
         "idade": 20,
         "curso": "Sistemas de informação",
         "nome": "João",
         "disciplinas": [
-          {"nome": "Matemática", "nota": 8},
-          {"nome": "Português", "nota": 7},
-          {"nome": "História", "nota": 9}
+          {"nome": "P.O.O", "nota": 10},
+          {"nome": "Frontend-Frameworks", "nota": 9},
+          {"nome": "Backend-Frameworks", "nota": 9}
         ]
       },
       {
         "id": 2,
-        "matricula": 231,
+        "matricula": 54321,
         "idade": 21,
         "curso": "ADS",
         "nome": "Maria",
         "disciplinas": [
-          {"nome": "Matemática", "nota": 9},
-          {"nome": "Português", "nota": 6},
-          {"nome": "História", "nota": 8}
+          {"nome": "Maturidade", "nota": 9},
+          {"nome": "Cloud Computing", "nota": 7},
+          {"nome": "Cod. de baixa performace Mobile", "nota": 8}
         ]
       }
     ]
