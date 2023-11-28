@@ -17,6 +17,7 @@ import { FormLoginComponent } from './exercicio7/form-login/form-login.component
 import { AreaLogadaComponent } from './exercicio7/area-logada/area-logada.component';
 import { DadosAlunosComponent } from './exercicio8/dados-alunos/dados-alunos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ComponentePaiComponent } from './exercicio6/componente-pai/componente-pai.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     ComponenteFilhoComponent,
     FormLoginComponent,
     AreaLogadaComponent,
-    DadosAlunosComponent
+    DadosAlunosComponent,
+    ComponentePaiComponent
   ],
   imports: [
     MatTableModule,

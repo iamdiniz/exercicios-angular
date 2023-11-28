@@ -6,10 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./componente-filho.component.css']
 })
 export class ComponenteFilhoComponent {
-
-  @Input() mensagemDoPai: string = '';
-  @Input() itensDoPai: Array<any> = [];
-
-  displayedColumns: string[] = ['name'];
-
+  @Input() itens: string[] = [];
 }
